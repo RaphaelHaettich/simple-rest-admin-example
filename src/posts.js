@@ -28,7 +28,7 @@ const PostFilter = (props) => (
         </ReferenceInput>
         <SelectInput
             source="id"
-            choices={[{ id: 1 }, { id: 2 }]}
+            choices={[{ id: 1, name: '1' }, { id: 2, name: '2' }]}
             alwaysOn
         />
     </Filter>
